@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <label for="username">username</label>
+        <input type="text" id="username" placeholder="spongebob" minlength=6 maxlength="15" required> <br>
+<!--the label gives your input a name-->
+        <label for="password">password</label> 
+        <input type="password" id="password" minlength=6 maxlength="15" required> <br>
+
+        <label for="email">email</label>
+        <input type="email" id="email" placeholder="Ssquarepants@gmail.com"> <br>
+
+        <label for="phone">phone #</label>
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br>
+
+        <label for="bday">birthday</label>
+        <input type="date" id="bday"> <br>
+
+        <label for="bday">quantity</label>
+        <input type="number" id="quantity" min="0" max="99" value="1"> <br>
+
+        <label for="title"></label>
+
+        <label for="Mr.">Mr.</label> 
+        <input type="radio" id="Mr." value="Mr.">
+        <label for="Ms">Ms.</label>
+        <input type="radio" id="Ms." value="Ms.">
+        <label for="PhD">PhD</label>
+        <input type="radio" id="PhD" value="PhD"> <br>
+        
+
+        <input type="reset"><br>
+        <input type="submit">
+        <!--this will be for email-->
+
+
+    </form>
+</body>
+</html>
